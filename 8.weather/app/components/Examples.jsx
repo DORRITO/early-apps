@@ -2,7 +2,7 @@ var React = require('react');
 
 var Examples = () => {
     return (
-            <h3>Examples</h3>
+            <h3>Examples, again</h3>
     )
 };
 
