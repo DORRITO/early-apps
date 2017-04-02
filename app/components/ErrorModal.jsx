@@ -21,8 +21,9 @@ var ErrorModal = React.createClass({
     render: function() {    
         
         var {title, message} = this.props;
-        
+        //extra div so modal works.  react doesn't like div to be messed with.
         return(
+            <div>
             <div id="error-modal" className="reveal tiny text-center" data-reveal="">
                 <h4>{title}</h4>
                 <p>{message}</p>
@@ -31,6 +32,7 @@ var ErrorModal = React.createClass({
                         okay
                     </button>
                 </p>
+            </div>
             </div>
         );
     }   
