@@ -13,6 +13,9 @@ var Examples = () => {
                 <li>
                     <NavLink to='/?location=Phoenix'>Phoenix, AZ</NavLink>
                 </li>
+                <li>
+                    <NavLink to='/?location=Dallas'>Dallas, TX</NavLink>
+                </li>
             </ol>
         </div>
     )
